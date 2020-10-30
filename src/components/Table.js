@@ -89,4 +89,16 @@ const DatatablePage = () => {
           }
         ]
       };
+     
+      return (
+        <MDBDataTable
+          striped
+          searchLabel="Employee Search"
     
+          paging={false}
+          data={data}
+        />
+      );
+    }
+    
+    export default DatatablePage;
